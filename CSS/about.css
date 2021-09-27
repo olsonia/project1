@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: #F6F4F0;
     background-size: cover;
 }
 
@@ -14,18 +14,18 @@ header {
 }
 
 nav {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid #4E4948;
+    border-bottom: 2px solid #4E4948;
     font-size: 25px;
     padding: 10px;
 }
 
 a {
-    color: saddlebrown;
+    color: #4E4948;
 }
 
 a:hover {
-    color: darkolivegreen;
+    color: #BEA49A;
 }
 
 .nav-link {
@@ -38,3 +38,25 @@ footer {
     text-align: center;
     vertical-align: middle;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+}
+
+.child {
+    width: 50%;
+}
+
+.pic {
+    padding-left: 50px;
+    height: 500px;
+    width: 325px;
+}
+
+.about-blurb {
+    padding: 50px;
+}
+

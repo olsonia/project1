@@ -14,8 +14,8 @@ header {
 }
 
 nav {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid #4E4948;
+    border-bottom: 2px solid #4E4948;
     font-size: 25px;
     padding: 10px;
 }
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: darkolivegreen;
+    color: #BEA49A;
 }
 
 .nav-link {

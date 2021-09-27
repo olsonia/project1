@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: #F6F4F0;
     background-size: cover;
 }
 
@@ -13,19 +13,24 @@ header {
     width: 400px;
 }
 
+.intro {
+    font-family: "Brush Script MT";
+}
+
 nav {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid #4E4948;
+    border-bottom: 2px solid #4E4948;
     font-size: 25px;
     padding: 10px;
 }
 
 a {
-    color: saddlebrown;
+    color: #4E4948;
+    font-family: Optima;
 }
 
 a:hover {
-    color: darkolivegreen;
+    color: #BEA49A;
 }
 
 .nav-link {
@@ -33,6 +38,23 @@ a:hover {
     margin-right: 50px;
     text-decoration: none;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.image {
+    max-width: 20%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
 
 footer {
     text-align: center;
