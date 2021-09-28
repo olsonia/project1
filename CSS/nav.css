@@ -1,0 +1,40 @@
+body {
+    background-color: #F6F4F0;
+    background-size: cover;
+}
+
+header {
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    height: 300px;
+    width: 400px;
+}
+
+nav {
+    border-top: 2px solid #4E4948;
+    border-bottom: 2px solid #4E4948;
+    font-size: 25px;
+    padding: 10px;
+}
+
+a {
+    color: #4E4948;
+}
+
+a:hover {
+    color: #BEA49A;
+}
+
+.nav-link {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    vertical-align: middle;
+}
