@@ -1,0 +1,28 @@
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    
+}
+
+.form-container {
+    max-width: 25%;
+}
+
+label {
+    text-align: left;
+}
+
+.form-info {
+    border-radius: 2px;
+    border: 2px solid #ead1dcff;
+    padding: 2em;
+}
+
+textarea {
+    resize: none;
+}
+
+.contact-info {
+    padding: 40px;
+}

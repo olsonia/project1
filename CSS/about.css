@@ -7,15 +7,20 @@
 
 .child {
     width: 50%;
+    margin: 40px;
 }
 
 .pic {
-    padding-left: 50px;
+    padding-left: 30px;
     height: 500px;
     width: 325px;
+    box-shadow: 30px 30px #741b47ff;
 }
 
 .about-blurb {
-    padding: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 30%;
+
 }
 
