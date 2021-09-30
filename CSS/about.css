@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     margin: 20px;
-    justify-content: center;
 }
 
 .child {
@@ -20,7 +19,32 @@
 .about-blurb {
     padding-left: 60px;
     padding-right: 60px;
-    width: 30%;
+    width: 400px;
 
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    [class="about-blurb"] {
+        width: 100%;
+        text-align: center;
+    }
+
+    [class="about-par"]{
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
 }
 

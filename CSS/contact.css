@@ -4,7 +4,7 @@
 }
 
 .form-container {
-    padding-left: 30px;
+    padding-left: 100px;
     left: 20px;
 }
 
@@ -35,10 +35,17 @@ input {
     margin-bottom: 15px;
 }
 
+button {
+    margin-top: 10px;
+    height: 30px;
+    width: auto;
+}
+
 .contact-info {
     padding: 40px;
     margin-left: 20px;
     background-color: #ead1dcff;
+    width: 200px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -47,7 +54,13 @@ input {
     }
 
     input {
+        width: 40%;
+    }
+
+    button {
         width: 50%;
+        height: 50px;
+        font-size: 20px;
     }
 
     .form-container {
