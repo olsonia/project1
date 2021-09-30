@@ -1,28 +1,72 @@
 .parent-container {
-    display: flex;
-    flex-direction: row;
-    vertical-align: middle;
-    
+    display: inline-flex;
+    width: 100%;
 }
 
 .form-container {
-    max-width: 25%;
+    padding-left: 30px;
+    left: 20px;
 }
 
 label {
     text-align: left;
 }
 
+.form-header {
+    margin-left: 10px;
+}
+
 .form-info {
     border-radius: 2px;
     border: 2px solid #ead1dcff;
-    padding: 2em;
+    padding: 20px;
+    margin: 20px;
 }
 
 textarea {
     resize: none;
+    padding: 10px;
+    max-width: 100%;
+    width: 70%;
+    height: 120px;
+}
+
+input {
+    margin-bottom: 15px;
 }
 
 .contact-info {
     padding: 40px;
+    margin-left: 20px;
+    background-color: #ead1dcff;
+}
+
+@media screen and (max-width: 1000px) {
+    label, input, textarea, .form-info{
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 50%;
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+
+    .parent-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    [class="contact-info"] {
+        width: 100%;
+        text-align: center;
+        font-size: large;
+    }
+    [class="form-container"] {
+        width: 80%;
+    }
 }
