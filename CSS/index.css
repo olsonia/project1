@@ -35,4 +35,11 @@ button:hover {
 
 .consultation button {
     font-size: 25px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.home-blurb {
+    padding-bottom: 20px;
 }
