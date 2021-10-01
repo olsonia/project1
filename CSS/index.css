@@ -27,3 +27,12 @@ button:hover {
         color: black;
     }
 }
+
+.consultation {
+    background-color: #ead1dcff;
+    padding: 30px;
+}
+
+.consultation button {
+    font-size: 25px;
+}
